@@ -1,0 +1,89 @@
+.home-element {
+  justify-content: space-evenly;
+  display: flex;
+  background: url('../../Images/v9.jpg');
+  height: 59vh;
+  background-size: cover;
+  
+
+}
+
+/* Left section */
+.t1 {
+  background: url('../../Images/v7.jpg');
+  /* background-color: rgb(243, 245, 242); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 5px 5px 30px black;
+  position: relative;
+  height: 400px;
+  margin-top: 4rem;
+  
+}
+
+
+.t1>h2 {
+  font-size: 1.5rem;
+  /* Increase title font size */
+  background-color: navy;
+  padding: 1rem;
+  color: white;
+  position: relative;
+  border-radius: 40px;
+}
+.t1>h2:hover{
+  background-color: #d2720a;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.t1>a {
+  padding: 10px 20px;
+  background: url('../../Images//btnBg.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #131212;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  /* Add some top margin */
+  position: absolute;
+  font-weight: 700;
+  bottom: 40px;
+  margin-left: -184px;
+  font-size: 1.2rem;
+
+
+}
+.t1 a:hover{
+
+  background-size:auto;
+
+
+}
+.lawyer-profile{
+
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 5rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.profile-logos{
+  position: absolute;
+    top: 24%;
+    left: 37%;
+    transition: transform 0.5s ease;
+    
+   
+}
+.profile-logos:hover{
+ transform: rotate(30deg);
+}

@@ -1,0 +1,28 @@
+.vector-container{
+    width: 100vw;
+    height: 76vh;
+    background: url('home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.character{
+   position: absolute;
+   right: 1%;
+   top: 8rem;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+}
+.mainBg-heading{
+    letter-spacing: 2px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-size: 4rem;
+    
+}
+.sub-heading{
+    margin-left: 17rem;
+    font-size: 4;
+}

@@ -1,0 +1,102 @@
+.nav-container>ul {
+    display: flex;
+
+}
+
+.nav-container {
+    background-color: #c3420b;
+    height: 50px;
+    margin-top: -5px;
+    padding-top: 12px;
+    width: 110vw;
+    box-shadow: 5px 4px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+    
+ 
+
+
+}
+
+.nav-container ul {
+    margin-left: 4rem;
+}
+
+.nav-container ul li {
+    list-style: none;
+    padding-right: 3rem;
+    margin-top: 7px;
+
+
+}
+
+.nav-container ul a {
+    text-decoration: none;
+    color: rgb(248, 248, 243);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.submenu2  ul a{
+    color: black;
+}
+.submenu ul a{
+    color: black;
+    padding-top: 0;
+}
+.submenu li:hover a{
+    color: white;
+}
+.submenu {
+    /* background-color: #562c35; */
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 0.2rem;
+    box-shadow: 2px 2px 6px black;
+}
+
+.submenu2{
+    display: none;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    position: absolute;
+    margin-top: 0.61rem;
+}
+.submenu li:hover .submenu2{
+    display: block;
+    margin-left: 3.5rem;
+    margin-top: -9px;
+}
+
+.nav-container ul li:hover .submenu {
+    display: block;
+
+}
+
+.submenu ul li {
+    margin-left: -96px;
+    padding-left: 13px;
+    padding-top: 0;
+    display: flex;
+    padding: 0.6rem;
+    border-bottom: 1px solid rgb(122, 69, 69);
+}
+
+
+.submenu ul li:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.submenu ul li:hover {
+    background-color: rgb(2, 1, 1);
+    color: white;
+}
+
+.nav-container>ul>li>a{
+    padding-bottom: 15px;
+}

@@ -1,0 +1,26 @@
+.date-time{
+    width: 101vw;
+    height: 26px;
+    display: flex;
+   justify-content: space-between;
+    
+    background-color: #1f93f2;
+}
+*{
+    margin: 0;padding: 0;
+}
+.date-time .lang{
+    color: black;
+    
+    margin-right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.date-n-time{
+margin-left: 10rem;
+font-size: 12px;
+font-weight: 600;
+margin-top: 2px;
+color: black;
+letter-spacing: 1px;
+}

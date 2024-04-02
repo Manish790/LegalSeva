@@ -1,0 +1,24 @@
+.card {
+    width: 48%;
+    overflow-y: scroll;
+    height: max-content;
+   
+}
+
+.book-now-btn button {
+    float: right;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 2px;
+}
+
+.card-body>p {
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+
+.doctor-list-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}

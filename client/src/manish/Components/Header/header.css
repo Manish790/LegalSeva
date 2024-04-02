@@ -1,0 +1,25 @@
+.top-banner{
+    margin-top: -1px;
+    
+}
+.top-banner img{
+    width: 101vw;
+    position: relative;
+    display: block;
+
+}
+.login-text{
+    position: absolute;
+  color: black;
+  margin-right: 11px;
+  top: 58px;
+  color: orangered;
+  font-family: Anonymous Pro;
+  right: 76px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.top-banner>div{
+    width: 100vw;
+}
